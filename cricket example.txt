@@ -1,0 +1,64 @@
+package Cricket;
+
+	class SRH
+	{
+		void batsman()
+		{
+			System.out.println("Travis head");
+			System.out.println("Abhishek sharma");
+			System.out.println("Klassen");
+		}
+		void bowler()
+		{
+			System.out.println("Natarajan");
+			System.out.println("Bhuvneshwar kumar");
+			System.out.println("jaydev unadkat");
+		}
+		void Allrounder()
+		{
+			System.out.println("Aiden markram");
+			System.out.println("shahbaz Ahmed");
+		}
+	}
+	class CSK
+	{
+		void batsman()
+		{
+			System.out.println("Ruturaj Gaikwad");
+			System.out.println("shivam Dube");
+			System.out.println("MS Dhoni");
+		}
+		void Bowler()
+		{
+			System.out.println("Mustafizur Rahman");
+			System.out.println("Matheesha pathirana");
+			System.out.println("Tushar Deshpande");
+		}
+		void Allrounder()
+		{
+			System.out.println("Ravindra jadeja");
+			System.out.println("Moeen Ali");
+		}
+	}
+	class RR
+	{
+		void batsman()
+		{
+			System.out.println("Yashasvi jaiswal");
+			System.out.println("Jos Buttler");
+			System.out.println("sanju samson");
+
+		}
+		void Bowler()
+		{
+			System.out.println("Trent boult");
+			System.out.println("Avesh khan");
+			System.out.println("sandeep sharma");
+		}
+		void Allrounder()
+		{
+			System.out.println("Ravichandran Ashwin");
+			System.out.println("Rovman powell");
+		}
+			
+	}

@@ -1,0 +1,15 @@
+package Cricket;
+
+public class sample {
+	public static void main(String[] args)
+	{
+		SRH s=new SRH();
+		CSK c=new CSK();
+		RR R=new RR();
+		s.batsman();
+		c.Bowler();
+		R.Allrounder();
+		
+	}
+
+}
