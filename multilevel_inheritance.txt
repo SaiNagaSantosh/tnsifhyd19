@@ -1,0 +1,37 @@
+package sriindu;
+
+public class A
+   {
+
+	public void print() {
+		
+		System.out.println("welcome");
+	}
+   }
+public class B extends A
+{
+	public void display()
+	{
+		System.out.println("sri indu");
+	}
+}
+public class C extends B
+{ 
+ public void display1()
+ {
+	 System.out.println("students");
+ }
+}
+
+
+	class main
+	{
+	public static void main(String[] args) {
+		
+		c obj = new c();
+		obj.print();
+		obj.display();
+		obj.display1();
+	}
+
+}
