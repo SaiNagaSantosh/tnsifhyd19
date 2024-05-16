@@ -1,0 +1,23 @@
+public class A {
+	void display()
+	{
+		System.out.println("hello world");
+	}
+
+}
+class B extends A
+{
+	void display()
+	{
+		System.out.println("class B contains");
+	}
+}
+class c
+{
+	public static void main(String[] args)
+	{
+		A obj=new B();
+		obj.display();
+				
+	}
+}

@@ -1,0 +1,27 @@
+public class orange {
+	int sum(int x,int y)
+	{
+		return (x+y);
+	}
+	double sum(double x,double y)
+	{
+		return (x+y);
+	}
+	static void sample()
+	{
+		System.out.println("welcome");
+	}
+	static void sample(int a)
+	{
+		System.out.println("welcome to sri indu");
+	}
+	public static void main(String[] args)
+	{
+		orange o=new orange();
+		System.out.println(o.sum(10,20));
+		System.out.println(o.sum(10.5,20.5));
+		orange.sample();
+		orange.sample(10);
+	}
+
+}

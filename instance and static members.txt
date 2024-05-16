@@ -1,0 +1,23 @@
+public class Sample {
+	int a=10;
+	static int b=20;
+	void display()
+	{ 
+		System.out.println("welcome");
+	}
+	static void print()
+	{ 
+		System.out.println("sri indu");
+	}  
+}
+class Apple
+ { 
+	public static void main(String[] args)
+	{ 
+		Sample obj1=new Sample();
+		System.out.println(obj1.a);
+		System.out.println(Sample.b);
+		obj1.display();
+		Sample.print();
+	}
+ }

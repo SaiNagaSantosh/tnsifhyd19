@@ -1,0 +1,21 @@
+public class AB {
+	static void display()
+	{
+		System.out.println("static content of class AB");
+	}
+
+}
+class BB extends AB
+{
+	static void display()
+	{
+		System.out.println("static content of class B");
+	}
+}
+class cc
+{
+	public static void main(String[] args)
+	{
+		BB.display();
+	}
+}
